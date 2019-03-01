@@ -1,4 +1,4 @@
-package com.sda.java.emag;
+package com.sda.java.emag.item;
 
 public enum Category {
     ELECTRONICS,
