@@ -1,5 +1,7 @@
 package com.sda.java.emag;
 
+import com.sda.java.emag.businesslogic.Cart;
+import com.sda.java.emag.businesslogic.Stock;
 import com.sda.java.emag.item.Colours;
 import com.sda.java.emag.item.Phone;
 import com.sda.java.emag.item.Shoes;

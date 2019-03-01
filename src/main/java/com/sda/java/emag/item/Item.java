@@ -1,6 +1,6 @@
 package com.sda.java.emag.item;
 
-import com.sda.java.emag.Displayable;
+import com.sda.java.emag.businesslogic.Displayable;
 
 import java.io.Serializable;
 import java.util.Objects;
