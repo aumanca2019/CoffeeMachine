@@ -1,12 +1,10 @@
-package com.sda.java.emag;
+package com.sda.java.emag.businesslogic;
 
 import com.sda.java.emag.item.Item;
-import com.sda.java.emag.item.Phone;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.HashMap;
 import java.util.Map;
 
 

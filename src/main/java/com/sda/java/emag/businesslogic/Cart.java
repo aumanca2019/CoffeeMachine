@@ -1,4 +1,4 @@
-package com.sda.java.emag;
+package com.sda.java.emag.businesslogic;
 
 import com.sda.java.emag.item.Item;
 import com.sun.javafx.collections.MappingChange;
