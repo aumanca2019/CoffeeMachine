@@ -1,4 +1,4 @@
-package com.sda.java.cofeemachine;
+package com.sda.java.coffeemachine;
 
 public abstract class Coffee {
     private final int coffee;
