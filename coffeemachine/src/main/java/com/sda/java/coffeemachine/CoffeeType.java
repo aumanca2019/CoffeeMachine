@@ -1,9 +1,9 @@
 package com.sda.java.coffeemachine;
 
 public enum CoffeeType {
-    ESPRESSO(5,50,0,0),
-    LATTE(2,100,5,100),
-    FILTERCOFFEE(5,200,2,0);
+    ESPRESSO(15,50,0,0),
+    LATTE(10,100,5,100),
+    FILTERCOFFEE(10,200,2,0);
 
     private final int coffeeRequired;
     private final int waterRequired;
@@ -33,14 +33,6 @@ public enum CoffeeType {
         return milkRequired;
     }
 
-    @Override
-    public String toString() {
-        return "CoffeeType{" +
-                "coffeeRequired=" + coffeeRequired +
-                ", waterRequired=" + waterRequired +
-                ", sugarRequired=" + sugarRequired +
-                ", milkRequired=" + milkRequired +
-                '}';
-    }
+
 }
 

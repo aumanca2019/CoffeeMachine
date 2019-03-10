@@ -12,6 +12,13 @@ public abstract class Coffee {
         this.sugar = coffeeType.getSugarRequired();
         this.milk = coffeeType.getMilkRequired();
     }
+    protected abstract String getCoffeeName();
+
+    @Override
+    public String toString() {
+        return getCoffeeName();
+
+    }
 }
 
 
